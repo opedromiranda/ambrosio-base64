@@ -8,6 +8,13 @@ Base64 encoding/decoding plugin for Ambrosio.
 ### Version
 0.1
 
+### Pattern
+```
+encode <string>
+```
+```
+decode <string>
+```
 ### Usage
 
 Add the behaviour to Ambrosio:
