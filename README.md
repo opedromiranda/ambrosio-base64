@@ -28,7 +28,7 @@ import (
 func main() {
 	steve := ambrosio.NewAmbrosio("Steve")
 
-    steve.NewBehaviour(ambrosio_base64.Encoder)
+    steve.Teach(ambrosio_base64.Behaviours)
 
 	steve.Listen(3000)
 }

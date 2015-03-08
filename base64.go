@@ -28,3 +28,7 @@ var Encoder = ambrosio.Behaviour{
 		return result, error
 	},
 }
+
+var Behaviours = []ambrosio.Behaviour{
+	Encoder,
+}
